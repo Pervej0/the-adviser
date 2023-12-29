@@ -481,6 +481,16 @@ img {
   color: #ffffff;
 }
 
+.home-header .nav-outer .dropdown-nav {
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .home-header .nav-outer .dropdown-nav {
+    display: block;
+  }
+}
+
 .main-header .header-upper .inner-container {
   position: relative;
   display: block;
@@ -1322,6 +1332,12 @@ img.lazy-image.loaded {
   font-family: var(--thm-font);
 }
 
+@media only screen and (min-width: 1200px) {
+  .banner-section .left-based-text {
+    bottom: -28%;
+  }
+}
+
 .banner-section .left-based-text .base-inner {
   position: absolute;
   left: 0;
@@ -1983,6 +1999,10 @@ img.lazy-image.loaded {
   padding: 0px;
 }
 
+.popular-insight .lower-box .text {
+  min-height: 180px;
+}
+
 .popular-insight .lower-box .text p {
   font-size: 16px;
   color: var(--thm-black);
@@ -2194,7 +2214,7 @@ img.lazy-image.loaded {
   right: 45px;
   top: 50px;
   color: var(--thm-base);
-  font-size: 44px;
+  font-size: 38px;
   line-height: 1em;
   transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -3464,17 +3484,9 @@ img.lazy-image.loaded {
   background: #eae4d5;
 }
 
-.call-to-section h2 {
-  position: relative;
-  float: left;
-  display: block;
-  font-size: 60px;
-  line-height: 0.85em;
-  text-transform: uppercase;
-  color: var(--thm-black);
-  font-weight: 500;
-  margin: 0px 0px 25px;
-  z-index: 3;
+.call-to-section h3 {
+  text-align: center;
+  font-size: 56px;
 }
 
 .call-to-section .link-box {
@@ -3548,7 +3560,7 @@ img.lazy-image.loaded {
 }
 
 .main-footer .logo-widget .logo img {
-  height: 60px;
+  height: 75px;
 }
 
 .main-footer .logo-widget .text {
@@ -3635,6 +3647,7 @@ img.lazy-image.loaded {
   background: var(--thm-base);
 }
 
+.main-footer .newsletter-widget .text ul li,
 .main-footer .info-widget ul li {
   position: relative;
   display: block;
@@ -3647,6 +3660,7 @@ img.lazy-image.loaded {
   margin-bottom: 20px;
 }
 
+.main-footer .newsletter-widget .text .icon,
 .main-footer .info-widget ul li .icon {
   position: absolute;
   left: 0;
@@ -3660,6 +3674,7 @@ img.lazy-image.loaded {
   margin: 0;
 }
 
+.main-footer .newsletter-widget .text ul li a,
 .main-footer .info-widget ul li a {
   position: relative;
   color: #999b9f;
@@ -3684,6 +3699,11 @@ img.lazy-image.loaded {
   margin: 10px 0 0;
   font-size: 14px;
   line-height: 32px;
+}
+
+.main-footer .newsletter-widget .text ul {
+  padding: 0;
+  margin: 0;
 }
 
 .main-footer .newsletter-form {
@@ -4327,77 +4347,6 @@ img.lazy-image.loaded {
   .feature-seven {
     padding-top: 120px;
   }
-}
-
-/***
-
-====================================================================
-34.		Call Section
-====================================================================
-
-***/
-
-.call-to-section-two {
-  position: relative;
-  padding: 120px 0px 90px;
-  background-color: #2a2c30;
-  background-image: url(../images/icons/cta-bg-1-1.png);
-  color: #ffffff;
-  z-index: 1;
-}
-
-.call-to-section-two.alternate {
-  background: var(--thm-base);
-  background-image: url(../images/background/cta-2-bg-1-1.png);
-}
-
-.call-to-section-two .inner {
-  position: relative;
-  display: block;
-}
-
-.call-to-section-two h2 {
-  position: relative;
-  float: left;
-  display: block;
-  font-size: 70px;
-  line-height: 0.85em;
-  text-transform: uppercase;
-  color: #ffffff;
-  font-weight: 400;
-  margin: 0px 0px 25px;
-  z-index: 1;
-}
-
-.call-to-section-two.alternate h2 {
-  color: var(--thm-black);
-}
-
-.call-to-section-two .link-box {
-  position: relative;
-  float: right;
-  padding-top: 25px;
-  z-index: 1;
-}
-
-/***
-
-====================================================================
-45.	Faqs Section
-====================================================================
-
-***/
-
-.faqs-section {
-  position: relative;
-  padding: 120px 0px 100px;
-  background: #ffffff url(../images/background/pattern-2.png) left top repeat;
-  overflow: hidden;
-}
-
-.faqs-section .faq-block {
-  position: relative;
-  margin-bottom: 20px;
 }
 
 /***
