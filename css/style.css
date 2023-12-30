@@ -2924,7 +2924,7 @@ img.lazy-image.loaded {
 /***
 
 ====================================================================
-23.	News Section
+23.	insight Section
 ====================================================================
 
 ***/
@@ -4131,7 +4131,7 @@ img.lazy-image.loaded {
   background-color: #fff;
   background-image: none;
   padding-top: 120px;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
 
 .featured-section .left-col {
@@ -6085,4 +6085,46 @@ img.lazy-image.loaded {
 .accordion-button:focus {
   border-color: #fce3e3 !important;
   box-shadow: none !important;
+}
+/* ===============================================
+    news-section
+=======================================*/
+
+.news-section-1 .inner a {
+  color: var(--thm-black);
+}
+
+.news-section-1 .right-content .inner .box:first-child {
+  margin-top: 0px;
+}
+
+.news-section-1 .right-content .inner .box {
+  min-height: 150px;
+  margin: 5px 0px;
+}
+
+.news-section-3 .inner p {
+  color: var(--thm-black);
+  font-size: 15px;
+}
+
+.news-section-1 .inner .box p {
+  line-height: 24px;
+  color: var(--thm-black);
+  font-size: 15px;
+}
+
+.news-section-1 .right-content .inner .img-box {
+  width: 40%;
+  height: 120px;
+  overflow: hidden;
+}
+
+.news-section-1 .right-content .inner .img-box img {
+  width: 100%;
+  height: 100%;
+}
+
+.news-section-1 .right-content .inner .content-box {
+  width: 70%;
 }
